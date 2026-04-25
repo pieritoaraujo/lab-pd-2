@@ -8,6 +8,11 @@ package Patitos;
  *
  * @author sistemas
  */
-public class CuaqueoMudo {
+public class CuaqueoMudo implements Cuaqueable {
+
+    @Override
+    public void Cuaqueable() {
+       
+    }
     
 }

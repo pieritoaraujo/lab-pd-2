@@ -8,6 +8,11 @@ package Patitos;
  *
  * @author sistemas
  */
-public class Chirreo {
+public class Chirreo implements Cuaqueable {
+
+    @Override
+    public void Cuaqueable() {
+        System.out.println("");
+    }
     
 }

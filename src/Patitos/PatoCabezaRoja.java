@@ -8,6 +8,11 @@ package Patitos;
  *
  * @author sistemas
  */
-public class PatoCabezaRoja {
+public class PatoCabezaRoja extends Pato {
+
+    @Override
+    public void mostrar() {
+        System.out.println("Yo soy un real PATO CABEZA ROJA");
+    }
     
 }
