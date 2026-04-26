@@ -20,12 +20,25 @@ public class SimPato {
         PatoReal.realizarCuaqueo();
         PatoReal.realizarVuelo();
         PatoReal.nadar();
+
+        Pato PatoDeGoma = new PatoDeGoma();
+        PatoDeGoma.mostrar();
+        PatoDeGoma.realizarCuaqueo();
+        PatoDeGoma.realizarVuelo();
+        PatoDeGoma.nadar();
         
         Pato PatoSenuelo = new PatoSenuelo();
         PatoSenuelo.mostrar();
         PatoSenuelo.realizarCuaqueo();
         PatoSenuelo.realizarVuelo();
         PatoSenuelo.nadar();
+
+        Pato PatoCabezaRoja = new PatoCabezaRoja();
+        PatoCabezaRoja.mostrar();
+        PatoCabezaRoja.realizarCuaqueo();
+        PatoCabezaRoja.realizarVuelo();
+        PatoCabezaRoja.nadar();
+
         
     }
     
