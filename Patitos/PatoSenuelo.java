@@ -9,7 +9,10 @@ package Patitos;
  * @author sistemas
  */
 public class PatoSenuelo extends Pato {
-
+    public PatoSenuelo(){
+        Cuaqueable c2 = new CuaqueoMudo();
+        Volable v2 = new NoVuela();
+        }
     @Override
     public void mostrar(){
         System.out.println("Yo soy Pato señuelo");

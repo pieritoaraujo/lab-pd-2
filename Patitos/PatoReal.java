@@ -9,7 +9,11 @@ package Patitos;
  * @author sistemas
  */
 public class PatoReal extends Pato {
-
+    public PatoReal(){
+        Cuaqueable c1 = new Cuaqueo();
+        Volable v1 = new VuelaConAlas();
+        }
+    
     @Override
     public void mostrar() {
         System.out.println("Yo soy un verdadero PATO REAL");

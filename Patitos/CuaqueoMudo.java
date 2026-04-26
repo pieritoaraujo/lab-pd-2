@@ -12,7 +12,7 @@ public class CuaqueoMudo implements Cuaqueable {
 
     @Override
     public void Cuaqueable() {
-       
+        System.out.println("<<silencio>>");
+    }
     }
     
-}

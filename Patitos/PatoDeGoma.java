@@ -9,7 +9,11 @@ package Patitos;
  * @author sistemas
  */
 public class PatoDeGoma extends Pato {
-
+    public PatoDeGoma(){
+        Cuaqueable c2 = new Chirreo();
+        Volable v2 = new NoVuela();
+        }
+    
     @Override
     public void mostrar() {
         System.out.println("Yo soy un Patito de goma");

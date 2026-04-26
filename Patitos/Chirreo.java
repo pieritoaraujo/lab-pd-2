@@ -12,7 +12,7 @@ public class Chirreo implements Cuaqueable {
 
     @Override
     public void Cuaqueable() {
-        System.out.println("");
+        System.out.println("Chirr Chirr");
     }
     
 }

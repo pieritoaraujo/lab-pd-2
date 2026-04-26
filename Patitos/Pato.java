@@ -9,5 +9,8 @@ package Patitos;
  * @author sistemas
  */
 public abstract class Pato {
+    
+
     public abstract void mostrar();
+
 }
