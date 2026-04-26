@@ -11,7 +11,7 @@ package Patitos;
 public class Chirreo implements Cuaqueable {
 
     @Override
-    public void Cuaqueable() {
+    public void cuaqueable() {
         System.out.println("Chirr Chirr");
     }
     

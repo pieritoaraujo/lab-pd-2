@@ -9,5 +9,5 @@ package Patitos;
  * @author sistemas
  */
 public interface Cuaqueable {
-    public void Cuaqueable();
+    public void cuaqueable();
 }

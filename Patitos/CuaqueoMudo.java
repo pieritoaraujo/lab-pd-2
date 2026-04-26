@@ -11,7 +11,7 @@ package Patitos;
 public class CuaqueoMudo implements Cuaqueable {
 
     @Override
-    public void Cuaqueable() {
+    public void cuaqueable() {
         System.out.println("<<silencio>>");
     }
     }

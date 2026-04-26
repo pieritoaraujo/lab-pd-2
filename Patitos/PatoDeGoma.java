@@ -10,8 +10,8 @@ package Patitos;
  */
 public class PatoDeGoma extends Pato {
     public PatoDeGoma(){
-        Cuaqueable c2 = new Chirreo();
-        Volable v2 = new NoVuela();
+        cuaqueable  = new Chirreo();
+        volable  = new NoVuela();
         }
     
     @Override
