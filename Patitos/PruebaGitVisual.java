@@ -1,9 +1,15 @@
-public class SimPato {
+package Patitos;
+/**
+ *
+ * @author sistemas
+ */
+
+public class PruebaGitVisual {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        system.out.println("Hola Mundo");
+        System.out.println();
     }
 }
