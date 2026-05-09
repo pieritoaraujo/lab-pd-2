@@ -10,9 +10,8 @@ package Patitos;
  */
 public class Chirreo implements Cuaqueable {
 
-    @Override
-    public void cuaqueable() {
-        System.out.println("Chirr Chirr");
+    public void cuaquear() {
+        System.out.println("Chirr chirr");
     }
     
 }

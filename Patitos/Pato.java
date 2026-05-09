@@ -20,7 +20,6 @@ public abstract class Pato {
     public void setCuaqueable(Cuaqueable cuaqueablefq){
         this.cuaqueable = cuaqueablefq;
     }
-
     public void realizarVuelo(){
         volable.volar();
     }

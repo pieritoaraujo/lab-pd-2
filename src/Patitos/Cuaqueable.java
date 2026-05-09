@@ -10,4 +10,6 @@ package Patitos;
  */
 public interface Cuaqueable {
     public void Cuaqueable();
+
+    void cuaqueable();
 }
