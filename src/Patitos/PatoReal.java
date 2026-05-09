@@ -1,18 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Patitos;
 
-/**
- *
- * @author sistemas
- */
-public class PatoReal extends Pato {
-
+public class PatoReal implements Pato {
     @Override
-    public void mostrar() {
-        System.out.println("Yo soy un verdadero PATO REAL");
+    public void cuaquear() {
+        System.out.println("CUAC CUAC");
+    }
+    @Override
+    public void volar() {
+        System.out.println("Estoy volando");
     }
     
 }
