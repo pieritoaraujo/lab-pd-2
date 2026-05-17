@@ -1,3 +1,3 @@
-public class Observer {
+public interface Observer {
     public void actualizar(float temp);
 }
