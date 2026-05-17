@@ -1,10 +1,10 @@
-Diseñaremos un sistema qu publoque un mensaje a los usuarios cada vez que un producto vuelva a estar en stock.
+Diseñaremos un sistema que publique un mensaje de la temperatura en tres tipos de Pantalla.
 
 Observer
 
-    Cliente
+    Pantalla
 
 
 Subject
 
-    Producto
+    MonitorTiempo
