@@ -1,6 +1,6 @@
-public class PantallaLCD implements Pantalla{
+public class PantallaLCD implements Observer{
     @Override
-    public void mostrarEnPantalla(float numero){
-        System.out.println("La temperatura de la Pantalla LCD es: " +numero);
+    public void mostrar (float temp){
+        System.out.println("La Temperatura en la Pantalla LCD es:" +temp);
     }
 }

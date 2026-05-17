@@ -1,3 +1,3 @@
 public interface Observer {
-    public void actualizar(float temp);
+    public void mostrar(float temp);
 }
